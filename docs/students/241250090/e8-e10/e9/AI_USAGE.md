@@ -1,8 +1,8 @@
 # AI使用记录
 
-## 1 工具、模型与日期
+## 1 工具、模型、日期与小组
 
-DeepSeek Harness 编码代理，deepseek-flash 模型，2026-11-12。
+DeepSeek Harness 编码代理，deepseek-flash 模型，2026-11-12。小组 A11：吴璠 241250090、邱添 241250091、孙奕珂 241250095。
 
 ## 2 输入上下文与问题
 
@@ -14,9 +14,9 @@ DeepSeek Harness 编码代理，deepseek-flash 模型，2026-11-12。
 
 以上建议全部采纳。未修改 `lab.py` 的扫描逻辑。
 
-## 4 人工修改
+## 4 人工复核与修改
 
-学生复核各提交差异、报告字段与提交内容后确认提交。（人工填写具体复核修改）
+吴璠复核 E8 执行记录与报告字段，邱添复核 E9 各提交差异与提交内容，孙奕珂复核证据索引与 CI 产物。三人确认 `labs/e8e10/lab.py` 与 `run_lab.py` 未修改，新增内容仅为 `test_profile.py` 中的三个测试类与报告。
 
 ## 5 实际验证命令与结果
 
@@ -28,4 +28,4 @@ python3 -m unittest discover -s labs/e8e10 -p test_profile.py -v
 
 ## 6 贡献边界
 
-`labs/e8e10/lab.py`、`run_lab.py`、`labs/e8e10/environment/` 为课程参考实现，未修改。本次新增内容为 `labs/e8e10/test_profile.py` 中的 `StudentE9A` 测试类及本报告。
+`labs/e8e10/lab.py`、`run_lab.py`、`labs/e8e10/environment/` 为课程参考实现，未修改。本次新增内容为 `labs/e8e10/test_profile.py` 中的 `StudentE8A`、`StudentE9A`、`StudentE10A` 测试类及 `e8`、`e9`、`e10` 三份实验报告。
